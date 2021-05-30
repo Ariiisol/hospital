@@ -28,3 +28,5 @@ class Registration(BaseModel):
     patient = ForeignKeyField(Patient)
     service = ForeignKeyField(Service)
     date = DateTimeField()
+
+

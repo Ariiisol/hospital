@@ -40,3 +40,4 @@ class Error(BaseModel):
     msg: str
     code: int
 
+

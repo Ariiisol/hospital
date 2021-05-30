@@ -9,6 +9,7 @@ app.include_router(
     patients_router,
     prefix='/patients'
 )
+
 app.include_router(
     services_router,
     prefix='/services'
